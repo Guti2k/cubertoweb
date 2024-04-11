@@ -1,8 +1,4 @@
-@media only screen and (max-width: 800px) {
-    body {
-      background-color: rgb(255, 255, 255);
-    }
-  }
+
 
 
 header div{
@@ -101,3 +97,23 @@ footer ul{
     justify-content: center;
     list-style-type: none;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+
+    .section3 {
+        flex-direction: column;
+    }
+
+    .texto1 {
+        position: static;
+        width: auto;
+    }
+
+    .section3 img {
+        position: static;
+        width: auto;        
+    }
+  }
